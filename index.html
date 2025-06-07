@@ -8,18 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <footer class="p-3 bg-[#659f8f] dark:bg-[#313131] text-[#363b3f] text-sm text-opacity-90 rounded-md m-1">
-        <div class="container p-8">
-            <div class="flex flex-wrap flex-col items-start">
-                <div class="mb-4">
+    <footer class="p-3 bg-[#659f8f] dark:bg-[#313131] text-[#363b3f] text-sm text-opacity-90 rounded-md m-1 font-sans">
+        <div class="container p-8 lg:px-16">
+            <div class="flex flex-wrap flex-col items-start sm:grid grid-cols-2 lg:grid grid-cols-3 p-4">
+                <div class="mb-4 sm:col-span-full lg:col-span-1">
                     <h1 class="font-bold text-lg mb-6">Subscribe to our newsletter for updates.</h1>
                     <div class="flex-col">
-                        <input id="email" type="text" value="Email address" class="w-72 mb-2 p-3 rounded-md">
-                        <button class="w-72 px-6 py-2.5 bg-[#d86943] text-white rounded-md hover:opacity-50">Subscribe</button>
+                        <input id="email" type="text" value="Email address" class="w-72 mb-2 p-3 rounded-md sm: mr-2 lg:w-48 py-2.5">
+                        <button class="w-72 px-6 py-2.5 bg-[#d86943] text-white rounded-md hover:opacity-50 sm:w-40">Subscribe</button>
                     </div>
                 </div>     
                 
-                <div class="mb-4">
+                <div class="mb-4 lg:pl-48">
                     <p class="text-[#313131]b font-bold mb-4">Quick Link</p>
                     <div class="flex">
                          <ul>
@@ -29,7 +29,7 @@
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div class="lg: pl-20">
                     <p class="text-[#313131]b font-bold mb-4">Technologies</p>
                     <div class="">
                         <ul>
